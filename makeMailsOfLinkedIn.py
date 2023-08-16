@@ -3,10 +3,10 @@ import json
 import urllib.parse
 
 PAGINATION = 12
-cookie = "" ## add your cookie personal of LinkedIn
-domain = "" # add domain of the organization
-urlOrganization = "" # add url of linkedIn of the organization
-csrf-token = "" # add csrf-token header
+cookie = '' ## add your cookie personal of LinkedIn
+domain = '' # add domain of the organization
+urlOrganization = '' # add url of linkedIn of the organization
+csrf-token = '' # add csrf-token header
 
 users = []
 mails = []
