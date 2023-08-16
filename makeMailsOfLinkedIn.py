@@ -6,7 +6,7 @@ PAGINATION = 12
 cookie = '' ## add your cookie personal of LinkedIn
 domain = '' # add domain of the organization
 urlOrganization = '' # add url of linkedIn of the organization
-csrf-token = '' # add csrf-token header
+csrfToken = '' # add csrf-token header
 
 users = []
 mails = []
@@ -21,7 +21,7 @@ def getOrganizationId(organization):
     'x-li-lang': 'en_US',
     'x-li-track': '{"clientVersion":"1.12.3686","mpVersion":"1.12.3686","osName":"web","timezoneOffset":-5,"deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":3440,"displayHeight":1440}',
     'x-li-page-instance': 'urn:li:page:d_flagship3_company;k3tjqPhCRaWaUn0Y4UKsJA==',
-    'csrf-token': csrf-token,
+    'csrf-token': csrfToken,
     'x-restli-protocol-version': '2.0.0',
     'x-li-pem-metadata': 'Voyager - Organization - Member=organization-people-card',
     'Connection': 'keep-alive',
@@ -54,7 +54,7 @@ def getInitInfoPage(page):
     'x-li-lang': 'en_US',
     'x-li-track': '{"clientVersion":"1.12.3686","mpVersion":"1.12.3686","osName":"web","timezoneOffset":-5,"deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":3440,"displayHeight":1440}',
     'x-li-page-instance': 'urn:li:page:d_flagship3_company;k3tjqPhCRaWaUn0Y4UKsJA==',
-    'csrf-token': csrf-token,
+    'csrf-token': csrfToken,
     'x-restli-protocol-version': '2.0.0',
     'x-li-pem-metadata': 'Voyager - Organization - Member=organization-people-card',
     'Connection': 'keep-alive',
